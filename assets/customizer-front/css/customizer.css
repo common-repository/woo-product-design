@@ -1,0 +1,429 @@
+.fb-button{display:inline-block;margin:0;padding:.563rem .844rem;border:0 none;background:#16a085;color:#fff;text-align:center;text-decoration:none;font-size:12px;line-height:1.5;cursor:pointer;border-radius:.125rem;border:thin solid #19b394;border-bottom:2px solid #16a085}
+select.rf-size-large{padding:7px}
+.fb-add-field-types a:hover{background:rgba(0,0,0,0) linear-gradient(to left,#1abc9c 68%,#03a585 90%) repeat scroll 86% 37%;color:#000}
+abbr{border-bottom:medium none !important;text-decoration:none}
+.fb-button[disabled]{background:#ddd !important;border:thin solid #ccc;color:#777 !important;text-shadow:none !important;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";opacity:.65;cursor:default}
+.fb-clear{clear:both}
+.fb-main{max-width:1000px;padding:0 20px 0 0;position:relative;font-family:'Source Sans Pro','Open Sans',Tahoma}
+.fb-no-response-fields{color:#999}
+.fb-tab-content .fb-tab-pane{padding:0 20px;display:none}
+.fb-tab-content .fb-tab-pane.active{display:block}
+.fb-add-field-types .section{padding-bottom:5px;margin-bottom:20px}
+.fb-add-field-types{font-size:0}
+.fb-add-field-types a{font-size:13px;display:inline-block;width:48.5%;background-color:#1abc9c;margin-bottom:9px;box-sizing:border-box;transition:all .6s ease 0}
+.fb-add-field-types a:nth-child(odd){margin-right:3%}
+.fb-add-field-types a .symbol{opacity:.6;margin:0 .25em 0 -1em}
+.fb-response-fields{padding-bottom:150px}
+.fb-response-fields .fb-response-fields{padding-bottom:0}
+.fb-response-fields a.sortable-placeholder{display:block;border:1px dashed #ddd;min-height:80px;height:80px;width:100%}
+.fb-field-wrapper{cursor:pointer;position:relative;margin-bottom:20px}
+.fb-field-wrapper input{border-radius:3px;border:thin solid #ddd}
+.fb-field-wrapper:hover .actions-wrapper,.fb-field-wrapper.editing .actions-wrapper{display:block}
+.fb-field-wrapper:hover .subtemplate-wrapper{border-color:#ddd;border-radius:3px;background:#ebfcff none repeat scroll 0 0}
+.fb-field-wrapper.editing{background-color:#ebfcff;border-radius:3px}
+.fb-field-wrapper.editing .subtemplate-wrapper{border-color:#c9f7ff;border-style:solid;margin:0;border-radius:3px}
+.fb-field-wrapper .actions-wrapper{display:none;position:absolute;bottom:-7px;right:5px;z-index:3}
+.fb-field-wrapper .actions-wrapper a{display:inline-block;background-color:#ccc;padding:2px 8px}
+.fb-settings-field-wrapper input,.edit-response-field input,.fb-settings-field-wrapper textarea,.edit-response-field textarea,.fb-settings-field-wrapper select,.edit-response-field select{border:thin solid #ddd;border-radius:.25em;padding:.5em;display:inline-block;height:auto;vertical-align:middle;height:32px}
+.fb-settings-field-wrapper input:focus,.edit-response-field input:focus,.fb-settings-field-wrapper textarea:focus,.edit-response-field textarea:focus,.fb-settings-field-wrapper select:focus,.edit-response-field select:focus{outline:none;border:thin solid #1abc9c}
+.fb-settings-field-wrapper select,.edit-response-field select{font-size:14px}
+.fb-field-wrapper .actions-wrapper a.js-duplicate,.fb-edit-field-wrapper .js-add-option{background-color:#2ecc71;border:none}
+.fb-field-wrapper .actions-wrapper a.js-clear,.fb-edit-field-wrapper .js-remove-option{background-color:#e74c3c;border:none}
+.fb-field-wrapper .subtemplate-wrapper{border:1px dashed transparent;margin-bottom:10px;padding:10px;position:relative}
+.fb-field-wrapper .subtemplate-wrapper .cover{position:absolute;top:0;left:0;height:100%;width:100%;z-index:2}
+.fb-field-wrapper .subtemplate-wrapper > label{display:block;border-bottom:none;padding-bottom:3px;margin-bottom:7px}
+.fb-field-wrapper .subtemplate-wrapper abbr{color:#f00}
+.fb-field-wrapper .input-line{clear:both;margin-bottom:10px}
+.fb-field-wrapper .input-line .above-line{margin-top:7px}
+.fb-field-wrapper .input-line > span{display:inline-block;vertical-align:top}
+.fb-field-wrapper .input-line > span input{width:100%}
+.fb-field-wrapper .input-line > span > label{display:block;font-size:13px;margin-left:3px}
+.fb-field-wrapper .help-block{display:block;font-size:12px;margin-top:5px}
+.fb-settings-field-wrapper,.fb-edit-field-wrapper{font-size:13px}
+.fb-settings-field-wrapper .input-group{margin-bottom:5px}
+.fb-settings-field-wrapper .input-group label{width:100%}
+.fb-settings-field-wrapper .input-group input{width:100%}
+.fb-settings-field-wrapper .input-group select{width:100%}
+.fb-settings-field-wrapper .input-group textarea{width:100%}
+.fb-edit-field-wrapper .fb-field-label{font-weight:normal;background:#eee;padding:.75em;color:#666;font-size:1.25em}
+.fb-edit-field-wrapper .fb-field-label .field-type{margin-top:.5em;display:block;font-family:'Source Sans Pro',sans-serif;font-size:1em}
+.fb-edit-field-wrapper .fb-field-label .field-type:before{content:'Type: ';color:#999}
+.fb-edit-field-wrapper .fb-field-label .fa.fa-arrow-right{display:none}
+.fb-settings-field-wrapper .fb-section-headerm,.fb-edit-field-wrapper .fb-edit-section-header{border-bottom:1px solid #ddd;margin-top:25px;margin-bottom:10px;padding-bottom:5px;clear:both;font-weight:700}
+.fb-edit-field-wrapper .js-add-option,.fb-edit-field-wrapper .js-remove-option{padding:3px 6px}
+.fb-edit-field-wrapper .fb-bottom-add{margin-top:8px}
+.fb-common-wrapper .fb-label-description{margin-bottom:10px}
+.fb-common-wrapper .fb-label-description input,.fb-common-wrapper .fb-label-description textarea{width:100%}
+.fb-common-wrapper .fb-label-description textarea{min-height:5em}
+.response-field-draggable-helper{border:1px dashed #ddd;background:#eee}
+.response-field-text input.rf-size-small{width:130px;height:38px;padding:3px}
+.response-field-text input.rf-size-medium{width:300px;height:38px;padding:5px}
+.response-field-text input.rf-size-large{width:100%;height:38px;padding:10px}
+.response-field-paragraph textarea.rf-size-small{width:200px;min-height:60px}
+.response-field-paragraph textarea.rf-size-medium{width:400px;min-height:100px}
+.response-field-paragraph textarea.rf-size-large{width:100%;min-height:200px}
+.response-field-address .street{width:400px}
+.response-field-address .city,.response-field-address .state,.response-field-address .zip,.response-field-address .country{width:198px}
+.response-field-date .month,.response-field-date .day,.response-field-date .year{width:50px}
+.response-field-time .hours,.response-field-time .minutes,.response-field-time .seconds{width:50px}
+.response-field-checkboxes .fb-option,.response-field-radio .fb-option{margin-bottom:5px;display:inline-block}
+.response-field-website input{width:200px}
+.fb-edit-field-wrapper hr{border:none;border-bottom:1px solid #ddd}
+.fb-btn-sm{padding:3px 6px;border:medium none}
+.fb-btn-danger{background-color:#e74c3c}
+.fb-btn-success{background-color:#2ecc71}
+.js-condition-continaer .conditions{background:#ededed none repeat scroll 0 0;border:1px solid #ddd;border-radius:5px;margin-bottom:10px;padding:5px 10px}
+.js-condition-continaer .js-remove-condition{background:rgba(0,0,0,0) none repeat scroll 0 0;color:#e74c3c;float:right;line-height:normal;padding:0}
+.fb-main .input-group{box-sizing:border-box;padding:5px;width:100%}
+.fb-main .input-group.half{float:left;width:50%}
+.fb-main .input-group label{display:block;margin-bottom:5px;width:100%}
+.fb-main .input-group input[type="text"],.fb-main .input-group textarea,.fb-main .input-group select,.fb-main .input-group .form-control{box-sizing:border-box;display:block;width:100%}
+.fb-main .input-group textarea{height:auto;max-height:100%}
+.fb-main .option,.fb-main .attributes{width:100%;display:table}
+.fb-main .option .option-input-group,.fb-main .attributes .option-input-group,.fb-main .option .attributes-input-group,.fb-main .attributes .attributes-input-group{float:left;width:90%;margin-bottom:5px}
+.fb-main .option .option-input-group .input-group,.fb-main .attributes .option-input-group .input-group,.fb-main .option .attributes-input-group .input-group,.fb-main .attributes .attributes-input-group .input-group{box-sizing:border-box;float:left;padding:5px;width:50%}
+.fb-main .option .option-input-group .input-group label,.fb-main .attributes .option-input-group .input-group label,.fb-main .option .attributes-input-group .input-group label,.fb-main .attributes .attributes-input-group .input-group label{display:block;margin-bottom:5px;width:100%}
+.fb-main .option .option-input-group .input-group .form-control,.fb-main .attributes .option-input-group .input-group .form-control,.fb-main .option .attributes-input-group .input-group .form-control,.fb-main .attributes .attributes-input-group .input-group .form-control{box-sizing:border-box;display:block;width:100%}
+.fb-main .option .option-input-group .input-group,.fb-main .attributes .option-input-group .input-group{width:45%}
+.fb-main .option .option-input-group .input-group.selected-checkbox,.fb-main .attributes .option-input-group .input-group.selected-checkbox{width:10%}
+.fb-main .option .option-input-group .input-group.selected-checkbox input[type="checkbox"],.fb-main .attributes .option-input-group .input-group.selected-checkbox input[type="checkbox"],.fb-main .option .option-input-group .input-group.selected-checkbox input[type="radio"],.fb-main .attributes .option-input-group .input-group.selected-checkbox input[type="radio"]{margin:0;height:26px}
+.fb-main .option .add-remove-button,.fb-main .attributes .add-remove-button{float:right;width:10%;display:block}
+.fb-main .option .add-remove-button .btn-remove,.fb-main .attributes .add-remove-button .btn-remove{margin-bottom:3px;display:table}
+.pull-right{float:right}
+.fb-save-wrapper{position:absolute;right:20px;bottom:10px;top:auto;box-sizing:border-box}
+.fb-button.fb-button-default{border-color:#ccc;background:#ccc}
+.fb-button.fb-button-small{padding:.363rem .544rem}
+.fb-button-group .fb-button{margin-right:5px}
+.model-warper{background:rgba(225,225,225,0.7) none repeat scroll 0 0;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%}
+.model-warper .pc-modal{left:50%;margin:auto;max-width:300px;position:fixed;top:50%;transform:translateY(-50%) translateX(-50%);width:90%;border:1px solid #c6c6c6}
+.model-warper .pc-modal .pc-prompt-error-message{color:#f00;margin-bottom:15px}
+.model-warper .pc-modal .model-inner{position:relative}
+.model-warper .pc-modal .model-inner .pc-title{background:#2cbbf1 none repeat scroll 0 0;border-bottom:1px solid #c6c6c6;color:#fff;padding:10px;box-sizing:border-box}
+.model-warper .pc-modal .model-inner .pc-model-close{position:absolute;right:10px;top:8px;cursor:pointer}
+.model-warper .pc-modal .model-inner .pc-model-close .close{color:inherit;text-decoration:none}
+.model-warper .pc-modal .model-inner .pc-model-body{padding:10px;background:#fff;box-sizing:border-box}
+.input-field-container{display:table;margin-bottom:10px;width:100%;box-sizing:border-box}
+.input-field-container label{display:block;margin-bottom:5px;width:100%;box-sizing:border-box}
+.input-field-container input,.input-field-container textarea,.input-field-container select{border:thin solid #c6c6c6;border-radius:.25em;padding:.5em;display:inline-block;height:auto;vertical-align:middle;height:32px;box-sizing:border-box;width:100%}
+.input-field-container input:focus,.input-field-container textarea:focus,.input-field-container select:focus{outline:none;border:thin solid #2cbbf1}
+.input-field-container textarea{max-width:100%;min-height:50px;width:100%}
+.input-field-container select{font-size:14px}
+.input-field-container input[type="submit"],.input-field-container input[type="button"],.input-field-container button{border-color:#19b394 #19b394 #16a085}
+.customizer-main{font-size:15px;box-shadow:0 2px 5px 0 rgba(44,187,241,0.16),0 2px 10px 0 rgba(44,187,241,0.12);position:relative}
+.customizer-main .pc-loader-container{background:rgba(255,255,255,0.8) none repeat scroll 0 0;height:100%;left:0;position:absolute;width:100%;top:0;right:0;bottom:0;display:none}
+.customizer-main .pc-loader-container .pc-loading-inner{text-align:center;transform:translate(-50%,-50%);top:50%;left:50%;position:absolute;font-size:25px}
+.customizer-main .pc-loader-container .pc-loading-inner .pc-loading-icon{margin-bottom:10px;font-size:40px}
+.customizer-main.fullscreen{bottom:0;height:auto;left:0;margin:.5%;max-width:none;position:fixed;right:0;top:0;width:auto;z-index:9999}
+.customizer-main .pc-title{background:#2cbbf1 none repeat scroll 0 0;border-bottom:1px solid #c6c6c6;color:#fff;padding:10px}
+.customizer-main .pc-icon-inline{display:inline-table;margin-left:5px;margin-right:5px;padding-left:2px;padding-right:2px;vertical-align:middle;cursor:pointer}
+.customizer-main .pc-icon-inline-seprater{display:inline-table;margin-left:5px;margin-right:5px}
+.customizer-main .fb-left{float:left;width:24%;padding-top:0;box-sizing:border-box}
+.customizer-main .fb-tabs{background:#2cbbf1;border:none;padding:0;list-style:none;margin:0 0 20px 0;display:table;width:100%}
+.customizer-main .fb-tabs li{background:#2cbbf1;color:#fff;border:none;float:left;border-right:1px solid #fff}
+.customizer-main .fb-tabs li a{margin:0;display:block;padding:10px;cursor:pointer}
+.customizer-main .fb-tabs li.active{color:#2cbbf1;background:#fff}
+.customizer-main .fb-tabs li.active a{border:none}
+.customizer-main .fb-tab-content .assets{background:none;border:1px solid #c6c6c6;float:left;height:70px;margin:1%;padding:5px;text-align:center;width:31.33%;cursor:pointer}
+.customizer-main .fb-tab-content .assets img{height:auto;margin:0 auto;max-height:100%;max-width:100%;width:auto}
+.customizer-main .fb-right{border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;box-sizing:border-box;float:left;margin:0;min-height:100%;overflow:hidden;padding:0 5px 5px;width:54%}
+.customizer-main .fb-right .pc-canvas{background:url("../images/grid.png");border:1px solid #d2d2d2}
+.customizer-main .fb-right .pc-style-icon{box-sizing:border-box;cursor:pointer;float:left;font-size:25px;line-height:25px;margin:0 2px;padding:2px 5px;text-align:center;min-width:25px;width:auto;transition:all 1.5s ease 0;color:rgba(0,0,0,0.5)}
+.customizer-main .fb-right .pc-style-icon:hover{color:rgba(25,179,148,0.9)}
+.customizer-main .pc-layersbar{background:#fff none repeat scroll 0 0;border-radius:0;box-sizing:border-box;float:left;overflow:hidden;width:22%}
+.customizer-main .pc-layersbar .handle{cursor:move}
+.customizer-main .pc-layersbar .pc-layers-contianer{border-bottom:1px solid #c6c6c6;margin-bottom:5px;overflow:hidden;padding:0;margin:0;color:rgba(0,0,0,0.7);max-height:450px;overflow-y:auto}
+.customizer-main .pc-layersbar .pc-layers-contianer li{width:100%;padding:10px;list-style:none;cursor:pointer;transition:background 300ms ease-out 0;border-top-style:solid;border-top-width:1px;border-color:#c6c6c6;display:table;box-sizing:border-box}
+.customizer-main .pc-layersbar .pc-layers-contianer li:first-child{border-top:none}
+.customizer-main .pc-layersbar .pc-layers-contianer li:hover,.customizer-main .pc-layersbar .pc-layers-contianer li.active{background:rgba(44,187,241,0.1)}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-image-contianer,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-title,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel{vertical-align:middle;float:left;min-height:20px;box-sizing:border-box;overflow:hidden}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-image-contianer{padding-right:10px;width:30px;text-align:center}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-image-contianer img{float:left;max-width:30px;max-height:30px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel{width:20px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel .handel{margin-right:5px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-title{line-height:20px;overflow:hidden;padding-left:10px;padding-right:10px;white-space:nowrap;width:-moz-calc(100% - 30px - 50px);width:-webkit-calc(100% - 30px - 50px);width:-o-calc(100% - 30px - 50px);width:-ms-calc(100% - 30px - 50px);width:-official-calc(100% - 30px - 50px);width:calc(100% - 30px - 50px)}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel{width:50px;float:right}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action a,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel a{color:inherit;float:right;margin-left:5px;font-size:19px;margin-left:10px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action a:hover,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel a:hover{color:#2cbbf1}
+.customizer-main .pc-edit-layer{position:relative}
+.customizer-main .pc-edit-layer-wraper{background:rgba(0,0,0,0.1) none repeat scroll 0 0;border:1px solid #c5c5c5;bottom:0;box-sizing:border-box;float:left;padding:10px;left:0;position:absolute;right:0}
+.customizer-main .pc-edit-layer-wraper .pc-color-wrapper{box-sizing:border-box;float:left}
+.customizer-main .pc-edit-layer-wraper .pc-color-wrapper .colorselector{border:3px solid #aaa;position:relative;box-sizing:border-box;display:table;border-radius:3px;margin-top:3px}
+.customizer-main .pc-edit-layer-wraper .pc-color-wrapper .colorselector .background-color{width:20px;height:20px;box-sizing:border-box}
+.customizer-main .pc-edit-layer-wraper .left-border{border-left:1px solid rgba(0,0,0,0.1);box-sizing:border-box;float:left;margin-left:10px;padding-left:10px}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper{box-sizing:border-box;float:left}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper .pc-style-icon,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper .pc-style-icon,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper .pc-style-icon{box-sizing:border-box;cursor:pointer;float:left;font-size:25px;line-height:25px;margin:0 2px;padding:2px 5px;text-align:center;min-width:25px;width:auto;transition:all 1.5s ease 0;color:rgba(0,0,0,0.5)}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper .pc-style-icon:hover,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper .pc-style-icon:hover,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper .pc-style-icon:hover{color:rgba(25,179,148,0.9)}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper.pull-right,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper.pull-right,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper.pull-right{float:right}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper .pc-style-icon{font-size:18px;line-height:10px;margin-top:5px}
+.customizer-main .fb-upload-image-field-wrapper .pd-upload-zone{border:2px dashed #ecf0f1;border-radius:5px;color:#7f8c8d;cursor:pointer;height:auto;margin:10px 0;padding-bottom:30px;padding-top:30px;position:relative;width:100%}
+.customizer-main .fb-upload-image-field-wrapper .pd-upload-zone .pc-upload-image{bottom:0;height:100%;left:0;opacity:0;position:absolute;right:0;top:0;width:100%;z-index:0}
+.customizer-main .fb-upload-image-field-wrapper .pd-upload-zone span{display:table;margin-bottom:5px;text-align:center;width:100%}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container{max-height:315px;overflow:auto}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul{padding:0;display:table;width:100%;margin:0}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li{background:#ecf0f1 none repeat scroll 0 0;border:1px solid #ecf0f1;box-sizing:border-box;cursor:pointer;float:left;list-style:outside none none;margin:.4%;padding:3px;position:relative;text-align:center;width:49.2%;transition:all .5s}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li .image-contianer{position:relative;height:80px;width:100%;display:table}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li .image-contianer img{bottom:0;height:auto;left:0;margin:auto;max-height:100%;max-width:100%;position:absolute;right:0;top:0;width:auto}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li .delete-contianer{background:rgba(0,0,0,0.4);color:#f00;padding:3px 7px;position:absolute;right:0;top:0;transition:all .7s;opacity:0;z-index:999}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li:hover{background:#ccc;border:1px solid #ccc}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li:hover .delete-contianer{opacity:1}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li:hover .delete-contianer:hover{background:rgba(0,0,0,0.8)}
+.customizer-main .tool-tip{padding-bottom:15px;position:absolute;right:0;transform:translateY(-100%)}
+.customizer-main .tool-tip-container-inner{background:#fff;border:1px solid #ccc;margin-top:5px;width:300px}
+.customizer-main .tool-tip-container-inner .tool-tip-title{background:#000 none repeat scroll 0 0;border:medium none;display:table;list-style:outside none none;margin:0 0 20px;padding:0;width:100%;margin-bottom:0;margin-top:0;color:#fff;padding:10px;box-sizing:border-box}
+.customizer-main .tool-tip-container-inner .tool-tip-wraper{padding:15px 20px}
+.customizer-main .tool-tip-container-inner .fb-tab-content{padding-bottom:15px}
+.customizer-main .tool-tip-container-inner .pc-input-container{margin-bottom:10px}
+.customizer-main .tool-tip-container-inner .pc-input-container .input-label{display:table-cell;vertical-align:middle;width:100px}
+.customizer-main .tool-tip-container-inner .pc-input-container .description{color:#999;font-size:.8em;margin-top:5px}
+.customizer-main .tool-tip-container-inner .pc-input-container .input-fields{display:table-cell;vertical-align:middle}
+.customizer-main .tool-tip-container-inner .pc-input-container.input-checkbox{display:table}
+.customizer-main .tool-tip-container-inner .pc-input-container.input-checkbox .input-label{display:table-cell;vertical-align:middle;width:90%}
+.customizer-main .tool-tip-container-inner .pc-input-container.input-checkbox .input-fields{display:table-cell;vertical-align:middle;width:10%;padding-left:10px}
+.customizer-main .checkbox-group{display:table;margin:0 -5px;width:auto}
+.customizer-main .checkbox-group .pc-input-container.pc-half-width{width:50%;min-height:30px;float:left;padding:5px;box-sizing:border-box}
+.customizer-main .pc-input-container{margin-bottom:10px}
+.customizer-main .pc-input-container .input-fields input[type="text"],.customizer-main .pc-input-container .input-fields input[type="password"],.customizer-main .pc-input-container .input-fields input[type="email"],.customizer-main .pc-input-container .input-fields input[type="number"],.customizer-main .pc-input-container .input-fields select,.customizer-main .pc-input-container .input-fields textarea{border:1px solid #000;box-sizing:border-box;padding:5px 10px;width:100%}
+.customizer-main .pc-input-container .input-fields textarea{min-height:60px}
+.customizer-main .pc-input-container.pc-full-width{width:100%;display:table;margin-bottom:10px}
+.customizer-main .pc-input-container.pc-full-width .input-label{display:block;width:100%;box-sizing:border-box;padding-right:5px;float:none;padding:0;margin-bottom:5px}
+.customizer-main .pc-input-container.pc-full-width .input-fields{box-sizing:border-box;padding-left:5px;float:none;padding:0;display:table;width:100%}
+.customizer-main .pc-input-container.pc-half-width{width:50%;height:auto;float:left;padding:5px;box-sizing:border-box}
+.customizer-main .fb-right{width:100% !important;float:none !important}
+.customizer-main .fb-left{width:100% !important;float:none !important}
+.customizer-main .canvas-actions{display:none}
+.customizer-main .pc-edit-layer-wraper{display:none}
+#pc-layers{display:none}
+.fb-add-field-types{font-size:17px !important}
+.customizer-main{color:#2cbbf1;box-shadow:none}
+.customizer-main a{color:#2cbbf1}
+.customizer-main p{color:#000}
+.customizer-main .clear{clear:both}
+.customizer-main .fb-right{border:1px solid #c6c6c6;float:none;margin:0;margin-bottom:20px;min-height:100%;padding:5px}
+.customizer-main .fb-button{background:#2cbbf1;color:#fff;border:none}
+.customizer-main .fb-button[disabled]{background:#59b3cc;color:#ccc}
+.customizer-main .product-warning{background:#d9edf7;padding:5px 10px;color:#000;margin-bottom:10px}
+.customizer-main .background-color{margin:0 0 10px 0;padding:0;display:table;width:100%}
+.customizer-main .background-color .color{border:2px solid #c6c6c6;border-radius:3px;display:table;float:left;margin-right:5px;cursor:pointer;margin-bottom:5px}
+.customizer-main .background-color .color span{display:table;height:30px;width:30px}
+.customizer-main .fb-tabs{background:transparent;margin-bottom:0}
+.customizer-main .fb-tabs li{text-align:center;background-color:#fff;border:1px solid #ccc;border-bottom:none;border-radius:5px 5px 0 0;margin-bottom:-1px;margin-right:5px}
+.customizer-main .fb-tabs li a{padding:10px 15px}
+.customizer-main .fb-tabs li.active,.customizer-main .fb-tabs li:hover{background-color:#2cbbf1;border:1px solid #2cbbf1;color:#fff;cursor:pointer}
+.customizer-main .fb-tabs li.active a,.customizer-main .fb-tabs li:hover a{color:#fff}
+.customizer-main .fb-tab-content{border:2px solid #2cbbf1;padding-bottom:20px;padding-top:20px}
+.customizer-main .fb-tab-content .fb-tab-content{border:none;border-top:1px solid #2cbbf1}
+.customizer-main .fb-tab-content .assets{max-width:100px}
+.customizer-main .pc-text-layers-wraper{max-width:500px}
+.customizer-main .font-familty-wraper{width:100%;display:table}
+.customizer-main .font-familty-wraper .font-familty{width:60%;float:left;box-sizing:border-box}
+.customizer-main .font-familty-wraper .font-size{padding-left:20px;width:40%;float:left;box-sizing:border-box}
+.customizer-main .font-familty-wraper .input-fields input,.customizer-main .font-familty-wraper .input-fields select,.customizer-main .font-familty-wraper .input-fields textarea{border:thin solid #c6c6c6;border-radius:.25em;box-sizing:border-box;display:inline-block;height:32px;padding:.5em;vertical-align:middle;width:100%}
+.customizer-main .pc-layers-contianer{margin:0;padding:0}
+.customizer-main .pc-layers-contianer .layers{list-style:none;padding:8px;border:1px solid #ccc;margin-bottom:10px;border-radius:3px;cursor:pointer}
+.customizer-main .pc-layers-contianer .layers.no-found{cursor:default}
+.customizer-main .pc-layers-contianer .layers.active{background:#eee}
+.customizer-main .pc-layers-contianer .layers{list-style:none;padding:8px;border:1px solid #ccc;margin-bottom:10px;border-radius:3px;cursor:pointer}
+.customizer-main .pc-layers-contianer .layers.no-found{cursor:default}
+.customizer-main .pc-layers-contianer .layers.active{background:#eee}
+.customizer-main .pc-layers-contianer .pc-layer-title{color:#000}
+.customizer-main .pc-layers-contianer .pc-layers-action{float:right}
+.customizer-main .pc-layers-contianer .pc-layers-action .pc-layers-delete{color:#f00}
+.customizer-main .pc-image-layers-wraper .assets{margin:0 5px 5px 0}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .layers{position:relative;max-width:75px;float:left;height:65px;margin:0 5px 5px 0}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .layers img{height:auto;margin:0 auto;max-height:100%;max-width:100%;width:auto}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .pc-layers-action{position:absolute;right:0;top:0}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .pc-layers-action .pc-layers-delete{padding:3px 5px;display:table;background:rgba(0,0,0,0.3)}
+.customizer-main .fb-review-wrapper .review-footer .checkbox{margin-bottom:10px}
+.customizer-main .pc-image-upload-tab-container{margin-top:30px}
+.customizer-main .uploaded-image-container ul li{max-width:80px;float:left;margin:0 5px 5px 0}
+.customizer-main .pc-quick-control{margin-top:20px;margin-bottom:20px}
+.customizer-main .pc-quick-control ul{border-bottom:1px solid #ccc;border-top:1px solid #ccc;display:table;width:100%;line-height:50px;padding:0;margin:0}
+.customizer-main .pc-quick-control ul.pc-inline-block li{float:left;list-style:none}
+.customizer-main .pc-quick-control ul li{padding-left:20px;padding-right:20px;box-sizing:border-box;position:relative}
+.customizer-main .pc-quick-control ul li .pc-btn{cursor:pointer}
+.customizer-main .pc-quick-control ul li::after{border-left:1px solid;content:"";display:inline-table;float:right;height:30px;margin:auto;position:absolute;left:0;top:50%;transform:translateY(-50%);width:1px}
+.customizer-main .pc-quick-control ul li:first-child{padding-left:0}
+.customizer-main .pc-quick-control ul li:first-child::after{border-left:none}
+.customizer-main .pc-quick-control ul .printable-area .input-field-container{margin-bottom:0}
+.customizer-main .pc-quick-control ul .printable-area .input-field-container [type="checkbox"]{display:inline-table;width:auto}
+.customizer-main .pc-quick-control ul .capture-wrapper .snapshot-container{position:relative}
+.customizer-main .pc-quick-control ul .capture-wrapper .snapshot-container sup{background:#f32c8a none repeat scroll 0 0;border-radius:100%;color:#fff;left:10px;line-height:1.5em;padding:0 5px;position:absolute;top:5px;z-index:9}
+.customizer-main .pc-quick-control ul .compare-wrapper{position:relative}
+.customizer-main .pc-quick-control ul .compare-wrapper .fa.fa-sort-up{margin-left:5px;padding-bottom:0;padding-top:5px;vertical-align:middle}
+.customizer-main .pc-quick-control ul .compare-wrapper .fa.fa-sort-down{margin-left:5px;padding-bottom:10px;vertical-align:middle}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer{background:#fff none repeat scroll 0 0;border:1px solid #ccc;box-shadow:4px 4px 3px -1px #808080;left:0;position:absolute;min-width:200px;z-index:9}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts{display:block;max-height:250px;overflow-y:auto;border:medium none;margin:0}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li{position:relative;padding-left:10px;padding-right:10px;width:100%;float:none}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li::after{border:none}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li .pc-snapshot-image{width:-moz-calc(100% - 10px);width:-webkit-calc(100% - 10px);width:-o-calc(100% - 10px);width:-ms-calc(100% - 10px);width:-official-calc(100% - 10px);width:calc(100% - 10px);float:left;box-sizing:border-box;padding-right:10px}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li .pc-snapshot-image img{max-width:100%}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li .pc-snapshot-action{float:right;width:10px}
+.pull-right{float:right}
+.fb-save-wrapper{position:absolute;right:20px;bottom:10px;top:auto;box-sizing:border-box}
+.fb-button.fb-button-default{border-color:#ccc;background:#ccc}
+.fb-button.fb-button-small{padding:.363rem .544rem}
+.fb-button-group .fb-button{margin-right:5px}
+.model-warper{background:rgba(225,225,225,0.7) none repeat scroll 0 0;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;width:100%}
+.model-warper .pc-modal{left:50%;margin:auto;max-width:300px;position:fixed;top:50%;transform:translateY(-50%) translateX(-50%);width:90%;border:1px solid #c6c6c6}
+.model-warper .pc-modal .pc-prompt-error-message{color:#f00;margin-bottom:15px}
+.model-warper .pc-modal .model-inner{position:relative}
+.model-warper .pc-modal .model-inner .pc-title{background:#2cbbf1 none repeat scroll 0 0;border-bottom:1px solid #c6c6c6;color:#fff;padding:10px;box-sizing:border-box}
+.model-warper .pc-modal .model-inner .pc-model-close{position:absolute;right:10px;top:8px;cursor:pointer}
+.model-warper .pc-modal .model-inner .pc-model-close .close{color:inherit;text-decoration:none}
+.model-warper .pc-modal .model-inner .pc-model-body{padding:10px;background:#fff;box-sizing:border-box}
+.input-field-container{display:table;margin-bottom:10px;width:100%;box-sizing:border-box}
+.input-field-container label{display:block;margin-bottom:5px;width:100%;box-sizing:border-box}
+.input-field-container input,.input-field-container textarea,.input-field-container select{border:thin solid #c6c6c6;border-radius:.25em;padding:.5em;display:inline-block;height:auto;vertical-align:middle;height:32px;box-sizing:border-box;width:100%}
+.input-field-container input:focus,.input-field-container textarea:focus,.input-field-container select:focus{outline:none;border:thin solid #2cbbf1}
+.input-field-container textarea{max-width:100%;min-height:50px;width:100%}
+.input-field-container select{font-size:14px}
+.input-field-container input[type="submit"],.input-field-container input[type="button"],.input-field-container button{border-color:#19b394 #19b394 #16a085}
+.customizer-main{font-size:15px;box-shadow:0 2px 5px 0 rgba(44,187,241,0.16),0 2px 10px 0 rgba(44,187,241,0.12);position:relative}
+.customizer-main .pc-loader-container{background:rgba(255,255,255,0.8) none repeat scroll 0 0;height:100%;left:0;position:absolute;width:100%;top:0;right:0;bottom:0;display:none}
+.customizer-main .pc-loader-container .pc-loading-inner{text-align:center;transform:translate(-50%,-50%);top:50%;left:50%;position:absolute;font-size:25px}
+.customizer-main .pc-loader-container .pc-loading-inner .pc-loading-icon{margin-bottom:10px;font-size:40px}
+.customizer-main.fullscreen{bottom:0;height:auto;left:0;margin:.5%;max-width:none;position:fixed;right:0;top:0;width:auto;z-index:9999}
+.customizer-main .pc-title{background:#2cbbf1 none repeat scroll 0 0;border-bottom:1px solid #c6c6c6;color:#fff;padding:10px}
+.customizer-main .pc-icon-inline{display:inline-table;margin-left:5px;margin-right:5px;padding-left:2px;padding-right:2px;vertical-align:middle;cursor:pointer}
+.customizer-main .pc-icon-inline-seprater{display:inline-table;margin-left:5px;margin-right:5px}
+.customizer-main .fb-left{float:left;width:24%;padding-top:0;box-sizing:border-box}
+.customizer-main .fb-tabs{background:#2cbbf1;border:none;padding:0;list-style:none;margin:0 0 20px 0;display:table;width:100%}
+.customizer-main .fb-tabs li{background:#2cbbf1;color:#fff;border:none;float:left;border-right:1px solid #fff}
+.customizer-main .fb-tabs li a{margin:0;display:block;padding:10px;cursor:pointer}
+.customizer-main .fb-tabs li.active{color:#2cbbf1;background:#fff}
+.customizer-main .fb-tabs li.active a{border:none}
+.customizer-main .fb-tab-content .assets{background:none;border:1px solid #c6c6c6;float:left;height:70px;margin:1%;padding:5px;text-align:center;width:31.33%;cursor:pointer}
+.customizer-main .fb-tab-content .assets img{height:auto;margin:0 auto;max-height:100%;max-width:100%;width:auto}
+.customizer-main .fb-right{border-left:1px solid #c6c6c6;border-right:1px solid #c6c6c6;box-sizing:border-box;float:left;margin:0;min-height:100%;overflow:hidden;padding:0 5px 5px;width:54%}
+.customizer-main .fb-right .pc-canvas{background:url("../images/grid.png");border:1px solid #d2d2d2}
+.customizer-main .fb-right .pc-style-icon{box-sizing:border-box;cursor:pointer;float:left;font-size:25px;line-height:25px;margin:0 2px;padding:2px 5px;text-align:center;min-width:25px;width:auto;transition:all 1.5s ease 0;color:rgba(0,0,0,0.5)}
+.customizer-main .fb-right .pc-style-icon:hover{color:rgba(25,179,148,0.9)}
+.customizer-main .pc-layersbar{background:#fff none repeat scroll 0 0;border-radius:0;box-sizing:border-box;float:left;overflow:hidden;width:22%}
+.customizer-main .pc-layersbar .handle{cursor:move}
+.customizer-main .pc-layersbar .pc-layers-contianer{border-bottom:1px solid #c6c6c6;margin-bottom:5px;overflow:hidden;padding:0;margin:0;color:rgba(0,0,0,0.7);max-height:450px;overflow-y:auto}
+.customizer-main .pc-layersbar .pc-layers-contianer li{width:100%;padding:10px;list-style:none;cursor:pointer;transition:background 300ms ease-out 0;border-top-style:solid;border-top-width:1px;border-color:#c6c6c6;display:table;box-sizing:border-box}
+.customizer-main .pc-layersbar .pc-layers-contianer li:first-child{border-top:none}
+.customizer-main .pc-layersbar .pc-layers-contianer li:hover,.customizer-main .pc-layersbar .pc-layers-contianer li.active{background:rgba(44,187,241,0.1)}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-image-contianer,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-title,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel{vertical-align:middle;float:left;min-height:20px;box-sizing:border-box;overflow:hidden}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-image-contianer{padding-right:10px;width:30px;text-align:center}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-image-contianer img{float:left;max-width:30px;max-height:30px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel{width:20px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel .handel{margin-right:5px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-title{line-height:20px;overflow:hidden;padding-left:10px;padding-right:10px;white-space:nowrap;width:-moz-calc(100% - 30px - 50px);width:-webkit-calc(100% - 30px - 50px);width:-o-calc(100% - 30px - 50px);width:-ms-calc(100% - 30px - 50px);width:-official-calc(100% - 30px - 50px);width:calc(100% - 30px - 50px)}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel{width:50px;float:right}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action a,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel a{color:inherit;float:right;margin-left:5px;font-size:19px;margin-left:10px}
+.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layers-action a:hover,.customizer-main .pc-layersbar .pc-layers-contianer li .pc-layer-handel a:hover{color:#2cbbf1}
+.customizer-main .pc-edit-layer{position:relative}
+.customizer-main .pc-edit-layer-wraper{background:rgba(0,0,0,0.1) none repeat scroll 0 0;border:1px solid #c5c5c5;bottom:0;box-sizing:border-box;float:left;padding:10px;left:0;position:absolute;right:0}
+.customizer-main .pc-edit-layer-wraper .pc-color-wrapper{box-sizing:border-box;float:left}
+.customizer-main .pc-edit-layer-wraper .pc-color-wrapper .colorselector{border:3px solid #aaa;position:relative;box-sizing:border-box;display:table;border-radius:3px;margin-top:3px}
+.customizer-main .pc-edit-layer-wraper .pc-color-wrapper .colorselector .background-color{width:20px;height:20px;box-sizing:border-box}
+.customizer-main .pc-edit-layer-wraper .left-border{border-left:1px solid rgba(0,0,0,0.1);box-sizing:border-box;float:left;margin-left:10px;padding-left:10px}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper{box-sizing:border-box;float:left}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper .pc-style-icon,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper .pc-style-icon,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper .pc-style-icon{box-sizing:border-box;cursor:pointer;float:left;font-size:25px;line-height:25px;margin:0 2px;padding:2px 5px;text-align:center;min-width:25px;width:auto;transition:all 1.5s ease 0;color:rgba(0,0,0,0.5)}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper .pc-style-icon:hover,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper .pc-style-icon:hover,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper .pc-style-icon:hover{color:rgba(25,179,148,0.9)}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper.pull-right,.customizer-main .pc-edit-layer-wraper .pc-alignment-wrapper.pull-right,.customizer-main .pc-edit-layer-wraper .pc-administration-wrapper.pull-right{float:right}
+.customizer-main .pc-edit-layer-wraper .pc-style-wrapper .pc-style-icon{font-size:18px;line-height:10px;margin-top:5px}
+.customizer-main .fb-upload-image-field-wrapper .pd-upload-zone{border:2px dashed #ecf0f1;border-radius:5px;color:#7f8c8d;cursor:pointer;height:auto;margin:10px 0;padding-bottom:30px;padding-top:30px;position:relative;width:100%}
+.customizer-main .fb-upload-image-field-wrapper .pd-upload-zone .pc-upload-image{bottom:0;height:100%;left:0;opacity:0;position:absolute;right:0;top:0;width:100%;z-index:0}
+.customizer-main .fb-upload-image-field-wrapper .pd-upload-zone span{display:table;margin-bottom:5px;text-align:center;width:100%}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container{max-height:315px;overflow:auto}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul{padding:0;display:table;width:100%;margin:0}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li{background:#ecf0f1 none repeat scroll 0 0;border:1px solid #ecf0f1;box-sizing:border-box;cursor:pointer;float:left;list-style:outside none none;margin:.4%;padding:3px;position:relative;text-align:center;width:49.2%;transition:all .5s}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li .image-contianer{position:relative;height:80px;width:100%;display:table}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li .image-contianer img{bottom:0;height:auto;left:0;margin:auto;max-height:100%;max-width:100%;position:absolute;right:0;top:0;width:auto}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li .delete-contianer{background:rgba(0,0,0,0.4);color:#f00;padding:3px 7px;position:absolute;right:0;top:0;transition:all .7s;opacity:0;z-index:999}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li:hover{background:#ccc;border:1px solid #ccc}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li:hover .delete-contianer{opacity:1}
+.customizer-main .fb-upload-image-field-wrapper .uploaded-image-container ul li:hover .delete-contianer:hover{background:rgba(0,0,0,0.8)}
+.customizer-main .tool-tip{padding-bottom:15px;position:absolute;right:0;transform:translateY(-100%)}
+.customizer-main .tool-tip-container-inner{background:#fff;border:1px solid #ccc;margin-top:5px;width:300px}
+.customizer-main .tool-tip-container-inner .tool-tip-title{background:#000 none repeat scroll 0 0;border:medium none;display:table;list-style:outside none none;margin:0 0 20px;padding:0;width:100%;margin-bottom:0;margin-top:0;color:#fff;padding:10px;box-sizing:border-box}
+.customizer-main .tool-tip-container-inner .tool-tip-wraper{padding:15px 20px}
+.customizer-main .tool-tip-container-inner .fb-tab-content{padding-bottom:15px}
+.customizer-main .tool-tip-container-inner .pc-input-container{margin-bottom:10px}
+.customizer-main .tool-tip-container-inner .pc-input-container .input-label{display:table-cell;vertical-align:middle;width:100px}
+.customizer-main .tool-tip-container-inner .pc-input-container .description{color:#999;font-size:.8em;margin-top:5px}
+.customizer-main .tool-tip-container-inner .pc-input-container .input-fields{display:table-cell;vertical-align:middle}
+.customizer-main .tool-tip-container-inner .pc-input-container.input-checkbox{display:table}
+.customizer-main .tool-tip-container-inner .pc-input-container.input-checkbox .input-label{display:table-cell;vertical-align:middle;width:90%}
+.customizer-main .tool-tip-container-inner .pc-input-container.input-checkbox .input-fields{display:table-cell;vertical-align:middle;width:10%;padding-left:10px}
+.customizer-main .checkbox-group{display:table;margin:0 -5px;width:auto}
+.customizer-main .checkbox-group .pc-input-container.pc-half-width{width:50%;min-height:30px;float:left;padding:5px;box-sizing:border-box}
+.customizer-main .pc-input-container{margin-bottom:10px}
+.customizer-main .pc-input-container .input-fields input[type="text"],.customizer-main .pc-input-container .input-fields input[type="password"],.customizer-main .pc-input-container .input-fields input[type="email"],.customizer-main .pc-input-container .input-fields input[type="number"],.customizer-main .pc-input-container .input-fields select,.customizer-main .pc-input-container .input-fields textarea{border:1px solid #000;box-sizing:border-box;padding:5px 10px;width:100%}
+.customizer-main .pc-input-container .input-fields textarea{min-height:60px}
+.customizer-main .pc-input-container.pc-full-width{width:100%;display:table;margin-bottom:10px}
+.customizer-main .pc-input-container.pc-full-width .input-label{display:block;width:100%;box-sizing:border-box;padding-right:5px;float:none;padding:0;margin-bottom:5px}
+.customizer-main .pc-input-container.pc-full-width .input-fields{box-sizing:border-box;padding-left:5px;float:none;padding:0;display:table;width:100%}
+.customizer-main .pc-input-container.pc-half-width{width:50%;height:auto;float:left;padding:5px;box-sizing:border-box}
+.customizer-main .fb-right{width:100% !important;float:none !important}
+.customizer-main .fb-left{width:100% !important;float:none !important}
+.customizer-main .canvas-actions{display:none}
+.customizer-main .pc-edit-layer-wraper{display:none}
+#pc-layers{display:none}
+.fb-add-field-types{font-size:17px !important}
+.customizer-main{color:#2cbbf1;box-shadow:none}
+.customizer-main a{color:#2cbbf1}
+.customizer-main p{color:#000}
+.customizer-main .clear{clear:both}
+.customizer-main .fb-right{border:1px solid #c6c6c6;float:none;margin:0;margin-bottom:20px;min-height:100%;padding:5px}
+.customizer-main .fb-button{background:#2cbbf1;color:#fff;border:none}
+.customizer-main .fb-button[disabled]{background:#59b3cc;color:#ccc}
+.customizer-main .product-warning{background:#d9edf7;padding:5px 10px;color:#000;margin-bottom:10px}
+.customizer-main .background-color{margin:0 0 10px 0;padding:0;display:table;width:100%}
+.customizer-main .background-color .color{border:2px solid #c6c6c6;border-radius:3px;display:table;float:left;margin-right:5px;cursor:pointer;margin-bottom:5px}
+.customizer-main .background-color .color span{display:table;height:30px;width:30px}
+.customizer-main .fb-tabs{background:transparent;margin-bottom:0}
+.customizer-main .fb-tabs li{text-align:center;background-color:#fff;border:1px solid #ccc;border-bottom:none;border-radius:5px 5px 0 0;margin-bottom:-1px;margin-right:5px}
+.customizer-main .fb-tabs li a{padding:10px 15px}
+.customizer-main .fb-tabs li.active,.customizer-main .fb-tabs li:hover{background-color:#2cbbf1;border:1px solid #2cbbf1;color:#fff;cursor:pointer}
+.customizer-main .fb-tabs li.active a,.customizer-main .fb-tabs li:hover a{color:#fff}
+.customizer-main .fb-tab-content{border:2px solid #2cbbf1;padding-bottom:20px;padding-top:20px}
+.customizer-main .fb-tab-content .fb-tab-content{border:none;border-top:1px solid #2cbbf1}
+.customizer-main .fb-tab-content .assets{max-width:100px}
+.customizer-main .pc-text-layers-wraper{max-width:500px}
+.customizer-main .font-familty-wraper{width:100%;display:table}
+.customizer-main .font-familty-wraper .font-familty{width:60%;float:left;box-sizing:border-box}
+.customizer-main .font-familty-wraper .font-size{padding-left:20px;width:40%;float:left;box-sizing:border-box}
+.customizer-main .font-familty-wraper .input-fields input,.customizer-main .font-familty-wraper .input-fields select,.customizer-main .font-familty-wraper .input-fields textarea{border:thin solid #c6c6c6;border-radius:.25em;box-sizing:border-box;display:inline-block;height:32px;padding:.5em;vertical-align:middle;width:100%}
+.customizer-main .pc-layers-contianer{margin:0;padding:0}
+.customizer-main .pc-layers-contianer .layers{list-style:none;padding:8px;border:1px solid #ccc;margin-bottom:10px;border-radius:3px;cursor:pointer}
+.customizer-main .pc-layers-contianer .layers.no-found{cursor:default}
+.customizer-main .pc-layers-contianer .layers.active{background:#eee}
+.customizer-main .pc-layers-contianer .layers{list-style:none;padding:8px;border:1px solid #ccc;margin-bottom:10px;border-radius:3px;cursor:pointer}
+.customizer-main .pc-layers-contianer .layers.no-found{cursor:default}
+.customizer-main .pc-layers-contianer .layers.active{background:#eee}
+.customizer-main .pc-layers-contianer .pc-layer-title{color:#000}
+.customizer-main .pc-layers-contianer .pc-layers-action{float:right}
+.customizer-main .pc-layers-contianer .pc-layers-action .pc-layers-delete{color:#f00}
+.customizer-main .pc-image-layers-wraper .assets{margin:0 5px 5px 0}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .layers{position:relative;max-width:75px;float:left;height:65px;margin:0 5px 5px 0}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .layers img{height:auto;margin:0 auto;max-height:100%;max-width:100%;width:auto}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .pc-layers-action{position:absolute;right:0;top:0}
+.customizer-main .pc-image-layers-wraper .pc-layers-contianer .pc-layers-action .pc-layers-delete{padding:3px 5px;display:table;background:rgba(0,0,0,0.3)}
+.customizer-main .fb-review-wrapper .review-footer .checkbox{margin-bottom:10px}
+.customizer-main .pc-image-upload-tab-container{margin-top:30px}
+.customizer-main .uploaded-image-container ul li{max-width:80px;float:left;margin:0 5px 5px 0}
+.customizer-main .pc-quick-control{margin-top:20px;margin-bottom:20px}
+.customizer-main .pc-quick-control ul{border-bottom:1px solid #ccc;border-top:1px solid #ccc;display:table;width:100%;line-height:50px;padding:0;margin:0}
+.customizer-main .pc-quick-control ul.pc-inline-block li{float:left;list-style:none}
+.customizer-main .pc-quick-control ul li{padding-left:20px;padding-right:20px;box-sizing:border-box;position:relative}
+.customizer-main .pc-quick-control ul li .pc-btn{cursor:pointer}
+.customizer-main .pc-quick-control ul li::after{border-left:1px solid;content:"";display:inline-table;float:right;height:30px;margin:auto;position:absolute;left:0;top:50%;transform:translateY(-50%);width:1px}
+.customizer-main .pc-quick-control ul li:first-child{padding-left:0}
+.customizer-main .pc-quick-control ul li:first-child::after{border-left:none}
+.customizer-main .pc-quick-control ul .printable-area .input-field-container{margin-bottom:0}
+.customizer-main .pc-quick-control ul .printable-area .input-field-container [type="checkbox"]{display:inline-table;width:auto}
+.customizer-main .pc-quick-control ul .capture-wrapper .snapshot-container{position:relative}
+.customizer-main .pc-quick-control ul .capture-wrapper .snapshot-container sup{background:#f32c8a none repeat scroll 0 0;border-radius:100%;color:#fff;left:10px;line-height:1.5em;padding:0 5px;position:absolute;top:5px;z-index:9}
+.customizer-main .pc-quick-control ul .compare-wrapper{position:relative}
+.customizer-main .pc-quick-control ul .compare-wrapper .fa.fa-sort-up{margin-left:5px;padding-bottom:0;padding-top:5px;vertical-align:middle}
+.customizer-main .pc-quick-control ul .compare-wrapper .fa.fa-sort-down{margin-left:5px;padding-bottom:10px;vertical-align:middle}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer{background:#fff none repeat scroll 0 0;border:1px solid #ccc;box-shadow:4px 4px 3px -1px #808080;left:0;position:absolute;min-width:200px;z-index:9}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts{display:block;max-height:250px;overflow-y:auto;border:medium none;margin:0}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li{position:relative;padding-left:10px;padding-right:10px;width:100%;float:none}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li::after{border:none}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li .pc-snapshot-image{width:-moz-calc(100% - 10px);width:-webkit-calc(100% - 10px);width:-o-calc(100% - 10px);width:-ms-calc(100% - 10px);width:-official-calc(100% - 10px);width:calc(100% - 10px);float:left;box-sizing:border-box;padding-right:10px}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li .pc-snapshot-image img{max-width:100%}
+.customizer-main .pc-quick-control ul .compare-wrapper .compare-layouts-continer .compare-layouts li .pc-snapshot-action{float:right;width:10px}

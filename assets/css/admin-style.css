@@ -1,0 +1,157 @@
+.wp-core-ui .button-red {
+	background-color: #9B2124;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#C5292E), to(#9B2124));
+	background-image: -webkit-linear-gradient(top, #C5292E, #9B2124);
+	background-image:    -moz-linear-gradient(top, #C5292E, #9B2124);
+	background-image:     -ms-linear-gradient(top, #C5292E, #9B2124);
+	background-image:      -o-linear-gradient(top, #C5292E, #9B2124);
+	background-image:   linear-gradient(to bottom, #C5292E, #9B2124);
+	border-color: #9B2124;
+	border-bottom-color: #8D1F21;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+ 	box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+ 	color: #fff;
+	text-decoration: none;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.wp-core-ui .button-red.hover,
+.wp-core-ui .button-red:hover,
+.wp-core-ui .button-red.focus,
+.wp-core-ui .button-red:focus {
+	background-color: #B72629;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#D22E30), to(#9B2124));
+	background-image: -webkit-linear-gradient(top, #D22E30, #9B2124);
+	background-image:    -moz-linear-gradient(top, #D22E30, #9B2124);
+	background-image:     -ms-linear-gradient(top, #D22E30, #9B2124);
+	background-image:      -o-linear-gradient(top, #D22E30, #9B2124);
+	background-image:   linear-gradient(to bottom, #D22E30, #9B2124);
+	border-color: #7F1C1F;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+ 	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.3);
+}
+
+.wp-core-ui .button-red.focus,
+.wp-core-ui .button-red:focus {
+	border-color: #500F0E;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6), 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.wp-core-ui .button-red.active,
+.wp-core-ui .button-red.active:hover,
+.wp-core-ui .button-red.active:focus,
+.wp-core-ui .button-red:active {
+	background: #7F1C1F;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#9B2124), to(#B72629));
+	background-image: -webkit-linear-gradient(top, #9B2124, #B72629);
+	background-image:    -moz-linear-gradient(top, #9B2124, #B72629);
+	background-image:     -ms-linear-gradient(top, #9B2124, #B72629);
+	background-image:      -o-linear-gradient(top, #9B2124, #B72629);
+	background-image:   linear-gradient(to bottom, #9B2124, #B72629);
+	border-color: #601312 #AE2426 #AE2426 #AE2426;
+	color: rgba(255,255,255,0.95);
+	-webkit-box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+ 	box-shadow: inset 0 1px 0 rgba(0,0,0,0.1);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+
+.wp-core-ui .button-red[disabled],
+.wp-core-ui .button-red:disabled,
+.wp-core-ui .button-red-disabled {
+	color: #E79496 !important;
+	background: #BA292B !important;
+	border-color: #7F1C1F !important;
+	-webkit-box-shadow: none !important;
+	box-shadow:         none !important;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.1) !important;
+	cursor: default;
+}
+
+
+.image_upload_container .image-continer {
+	max-width: 250px;
+	max-height: 100px;
+}
+.image_upload_container .image-continer img{
+	max-height: 100%;
+	max-width: 100%;
+	/* width: auto;*/
+	height: auto; 
+	margin:  0 auto;
+}
+
+.image_upload_container .button-continer {
+    margin-top: 10px;
+}
+.image_upload_container .button-continer .button {
+	margin-right: 5px; 
+}
+
+
+
+
+
+/* Meta Box */
+
+
+.pd_meta_box .form-field {
+    box-sizing: border-box;
+    display: table;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.pd_meta_box .input-label {
+    display: table-cell;
+    width: 150px;
+    vertical-align: top;
+}
+.pd_meta_box .input-field {
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+
+.image_upload .all_images {
+    display: table;
+    width: 100%;
+}
+.image_upload .all_images > li {
+    float: left;
+    position: relative;
+    width: 110px;
+}
+
+#TB_ajaxContent {
+  box-sizing: border-box;
+  clear: both;
+  line-height: 1.4em;
+  overflow: auto;
+  padding: 2px 15px 15px;
+  text-align: left;
+  width: 100% !important;
+  height: auto !important;
+}
+#TB_ajaxContent .crop-image-continer {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+#TB_ajaxContent .submit-button {
+    margin-top: 15px;
+}
+#TB_window {
+	overflow-y: auto; 
+}
+
+.full-width{
+	width: 100%;
+}
+.field-label{
+	width: 100%;
+}

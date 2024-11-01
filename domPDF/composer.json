@@ -1,0 +1,7 @@
+{
+    "name": "chetan/dom-pdf",
+    "require-dev": {
+        "dompdf/dompdf": "*"
+    },
+    "require": {}
+}
